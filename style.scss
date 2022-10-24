@@ -1,0 +1,16 @@
+@use './variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: $font-size;
+}
+
+#navBar-top {
+    height: 50px;
+    background: red($color: #000000);
+    border: red;
+    list-style: none;
+    font-size: 3rem;
+}
