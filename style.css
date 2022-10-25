@@ -1,0 +1,29 @@
+:root {
+    --primary-color-blue: rgb(0, 0, 255);
+    --primary-color-red: rgb(225, 0, 0);
+    --primary-color-yellow: rgb(255, 234, 0);
+    --secondary-color: rgb(198, 198, 198);
+    --text-white: rgb(255, 255, 255);
+    --text-black: rgb(0, 0, 0);
+    --text-blue: rgb(0, 0, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+#navBar-top {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    border: black;
+    list-style: none;
+    font-size: 3rem;
+}
+
+.navBar-top__link {
+    font-size: 3rem;
+}
