@@ -27,15 +27,16 @@ button {
 /* NavBar-top */
 
 .header-component {
+    max-width: 1200px;
+    margin: auto;
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .header-content {
     position: relative;
-    width-max: 1200px;
+    width: 100%;
     height: 15px;
     display: flex;
     justify-content: space-between;
@@ -48,15 +49,15 @@ button {
     width: 100%;
     left: 0;
     top: 26px;
-    display: block;
     border-bottom: 1px solid var(--border-bottom);
+    display: block;
 }
 
 .nav-link li,
 .nav-login li {
     padding: 0 6px;
-    display: inline-block;
     font-size: 1.3rem;
+    display: inline-block;
     text-transform: uppercase;
 }
 
@@ -96,12 +97,49 @@ button {
 /* Search Menu */
 
 .search__menu {
-    width-max: 1200px;
+    width: 100%;
     height: 100px;
     margin-top: 15px;
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 2fr 1fr;
+}
+
+.search {
+    height: 44px;
+    width: 520px;
+    border-radius: 25px;
+    border: solid 1px var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.keyword-input {
+    height: 42px;
+    width: 305px;
+    padding-left: 25px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.keyword-input::placeholder {
+    font-size: 1.1rem;
+}
+
+.selected-item {
+    height: 42px;
+    width: 130px;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    color: var(--text-blue);
+}
+
+.logo-picture {
+    height: 42px;
+    width: 250px;
 }
 
 .shopping-card {
