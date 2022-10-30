@@ -24,7 +24,14 @@ button {
     list-style-type: none;
 }
 
-/* NavBar-top */
+#top {
+    display: none;
+}
+
+
+@media only screen and (min-width: 960px) {
+
+    /* NavBar-top */
 
 .header-component {
     max-width: 1200px;
@@ -105,6 +112,7 @@ button {
     grid-template-columns: 1fr 2fr 1fr;
 }
 
+
 .search {
     height: 44px;
     width: 520px;
@@ -154,3 +162,4 @@ button {
 }
 
 /* End Search Menu */
+}
