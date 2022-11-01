@@ -1,5 +1,6 @@
 :root {
     font-size: 10px;
+    --background: rgb(175, 175, 175);
     --border-bottom-grey: rgb(238, 238, 238);
     --border-bottom-yellow: rgb(255, 234, 0);
     --primary-color-blue: rgb(0, 0, 255);
@@ -9,6 +10,7 @@
     --text-white: rgb(255, 255, 255);
     --text-black: rgb(0, 0, 0);
     --text-blue: rgb(0, 0, 126);
+    --text-dark-grey: rgb(179, 179, 179);
 }
 
 * {
@@ -76,8 +78,10 @@ button {
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
+    background-color: white;
     font-size: 2rem;
     text-transform: uppercase;
+    z-index: 3;
 }
 
 /* End NavBar Smartfon */
@@ -86,25 +90,41 @@ button {
 
 .contener-smartphone {
     max-width: 959px;
+    padding-top: 7.5rem;
+    background-color: var(--background);
 }
 
-.search-smartphone {
-    padding-top: 7.5rem;
+.content-smartphone {
     display: flex;
     justify-content: center;
 }
 
-
-.content-smartphone .keyword-input-smartphone {
+.search-smartphone {
+    display: flex;
     height: 35px;
     width: 95%;
-    padding-left: 40px;
+    padding-left: 1.5rem;
+    border: 1px solid var(--border-bottom-grey);
 }
 
-.content-smartphone .fa-solid::after {
-
-
+.content-smartphone .keyword-input-smartphone {
+    width: 90%;
+    padding-left: 1.5rem;
+    border: none;
+    outline: none;
 }
+
+::placeholder {
+    color: var(--text-dark-grey);
+}
+
+.search-smartphone .fa-magnifying-glass {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: var(--text-dark-grey);
+}
+
 
 /* End Contener Smartphone */
 
