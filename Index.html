@@ -11,9 +11,9 @@
     </head>
 <body>
 
-<!-- NavBar Smartfon -->
+<!-- NavBar Smartphone -->
 
-<div id="navbar-smartphone">
+<div id="navbar-smartphone" class="navbar-smartphone">
     <div class="navbar-smartphone__contener">
         <div class="nav-smartphone__logo">
             <div class="logo-smartphone">
@@ -22,16 +22,16 @@
         </div>
         <div class="nav-smartphone__login">
             <div class="logo-smartphone">
-                <img class="nav-smartphone__icon" src="./img/Icon/Search.png" alt="Logo Sklepu FAEUROKE">
-                <img class="nav-smartphone__icon" src="./img/Icon/shopping.png" alt="Logo Sklepu FAEUROKE">
-                <img class="nav-smartphone__icon" src="./img/Icon/Login.png" alt="Logo Sklepu FAEUROKE">
+                <div class="nav-smartphone__icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="nav-smartphone__icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="nav-smartphone__icon"><i class="fa-solid fa-user"></i></div>
             </div>
         </div>
     </div>
     <div class="navbar-smartphone__nav-smartphone">
         <div class="nav-smartphone__link">
             <ul>
-                <li><a href="#">Promocje</a></li>
+                <li><a href="#">Promocje <i class="fa-solid fa-caret-down"></i></a></li>
                 <li><a href="#">Sklep</a></li>
                 <li><a href="#">Raty</a></li>
             </ul>
@@ -39,9 +39,23 @@
     </div>
 </div>
 
+<!-- End NavBar Smartphone -->
+
+<!-- Contener Smartphone -->
+
+<div id="contener-smartphone" class="contener-smartphone">
+    <div class="content-smartphone">
+    <div class="search-smartphone">
+        <i class="fa-solid fa-magnifying-glass"></i><input type="text" class="keyword-input-smartphone"  placeholder="Jakiego produktu szukasz?" maxlength="100">
+    </div>
+    </div>
+</div>
+
+<!-- End Contener Smartphone -->
+
 <!-- NavBar Top Main --> 
 
-<div id="top">
+<div id="top" class="top">
     <div class="header-component">
         <div class="header-content">
             <div class="nav-link">
