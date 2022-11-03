@@ -1,7 +1,9 @@
 :root {
     font-size: 10px;
-    --background: rgb(175, 175, 175);
-    --border-bottom-grey: rgb(238, 238, 238);
+    --border-radius: 4px;
+    --background-ight-grey: rgb(241, 241, 241);
+    --background-white: rgb(255, 255, 255);
+    --border-bottom-grey: rgb(200, 200, 200);
     --border-bottom-yellow: rgb(255, 234, 0);
     --primary-color-blue: rgb(0, 0, 255);
     --primary-color-red: rgb(225, 0, 0);
@@ -35,20 +37,18 @@ button {
 
 .navbar-smartphone {
     position: relative;
-    max-height: 60px;
+    max-height: 100px;
     width: 100%;
     display: flex;
     flex-direction: column;
     color: var(--text-blue);
 }
 
-.navbar-smartphone:after {
+.nav-smartphone__link:after {
     content: "";
     position: absolute;
     display: block;
     width: 100%;
-    left: 0;
-    top: 11rem;
     border-bottom: 5px solid var(--border-bottom-yellow);
 }
 
@@ -72,17 +72,24 @@ button {
     cursor: pointer;
 }
 
+.navbar-smartphone__nav-smartphone {
+    width: 100%;
+    height: 40px;
+}
+
 .nav-smartphone__link ul {
     width: 100%;
     height: 40px;
+    padding-top: 5px;
     display: inline-flex;
     justify-content: space-around;
-    align-items: center;
     background-color: white;
     font-size: 2rem;
     text-transform: uppercase;
     z-index: 3;
 }
+
+
 
 /* End NavBar Smartfon */
 
@@ -90,21 +97,24 @@ button {
 
 .contener-smartphone {
     max-width: 959px;
-    padding-top: 7.5rem;
-    background-color: var(--background);
+    padding: 2.5rem 1.5rem;
+    background-color: var(--background-ight-grey);
 }
 
 .content-smartphone {
-    display: flex;
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 20px;
     justify-content: center;
 }
 
 .search-smartphone {
     display: flex;
     height: 35px;
-    width: 95%;
     padding-left: 1.5rem;
+    background-color: white;
     border: 1px solid var(--border-bottom-grey);
+    border-radius: var(--border-radius);
 }
 
 .content-smartphone .keyword-input-smartphone {
@@ -123,6 +133,20 @@ button {
     align-items: center;
     font-size: 1.5rem;
     color: var(--text-dark-grey);
+}
+
+.image-smartphone__slide {
+    height: 20rem;
+    background-color: var(--background-white);
+    border: 1px solid var(--border-bottom-grey);
+    border-radius: var(--border-radius);
+}
+
+.articles-smartphone__last-watched {
+    height: 20rem;
+    background-color: var(--background-white);
+    border: 1px solid var(--border-bottom-grey);
+    border-radius: var(--border-radius);
 }
 
 
