@@ -135,7 +135,7 @@ button {
     color: var(--text-dark-grey);
 }
 
-.image-smartphone__slide {
+.image-smartphone__slider {
     height: 20rem;
     background-color: var(--background-white);
     border: 1px solid var(--border-bottom-grey);
