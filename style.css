@@ -90,7 +90,6 @@ button {
 }
 
 
-
 /* End NavBar Smartfon */
 
 /* Contener Smartphone */
@@ -140,6 +139,7 @@ button {
     background-color: var(--background-white);
     border: 1px solid var(--border-bottom-grey);
     border-radius: var(--border-radius);
+    overflow: hidden;
 }
 
 .articles-smartphone__last-watched {
@@ -149,8 +149,17 @@ button {
     border-radius: var(--border-radius);
 }
 
+.image-smartphone__slides {
+    height: 18rem;   
+    display: flex; 
+}
+
+.smartphone-slide;
+}
+
 
 /* End Contener Smartphone */
+
 
 @media only screen and (min-width: 960px) {
 
@@ -191,27 +200,27 @@ button {
     display: block;
 }
 
-.nav-link li,
-.nav-login li {
+.top-link li,
+.top-login li {
     padding: 0 6px;
     font-size: 1.3rem;
     display: inline-block;
     text-transform: uppercase;
 }
 
-.nav-link li a,
-.nav-login li a{
+.top-link li a,
+.top-login li a{
     color: var(--text-blue);
     position: relative;
 }
 
-.nav-login li span {
+.top-login li span {
     color: var(--text-black);
     font-size: 1.2rem;
 }
 
-.nav-link li a::before,
-.nav-login li a::before {
+.top-link li a::before,
+.top-login li a::before {
     content: "";
     position: absolute;
     height: 1px;
@@ -221,12 +230,12 @@ button {
     background-color: var(--text-blue);
 }
 
-.nav-link li a:hover::before,
-.nav-login li a:hover::before {
+.top-link li a:hover::before,
+.top-login li a:hover::before {
     width: 100%;
 }
 
-.nav-link .boltRed {
+.top-link .boltRed {
     color: var(--primary-color-red);
 }
 
