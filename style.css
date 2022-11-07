@@ -135,31 +135,37 @@ button {
 }
 
 .image-smartphone__slider {
-    height: 20rem;
+    display: flex;
+    justify-content: center;
+    height: 24rem;
     background-color: var(--background-white);
     border: 1px solid var(--border-bottom-grey);
     border-radius: var(--border-radius);
-    overflow: hidden;
+
 }
 
 .articles-smartphone__last-watched {
-    height: 20rem;
+    height: 24rem;
     background-color: var(--background-white);
     border: 1px solid var(--border-bottom-grey);
     border-radius: var(--border-radius);
 }
 
-.image-smartphone__slides {
-    height: 18rem;   
-    display: flex; 
+.smartphone-slide {
+    padding: 10px;
 }
 
-.smartphone-slide;
+.smartphone-slide img {
+    height: 19rem;
+    width: auto;
+    border-radius: 10px;
 }
 
+/* Manual navigation slide */
+
+/* End Manual Navigation Slide */
 
 /* End Contener Smartphone */
-
 
 @media only screen and (min-width: 960px) {
 
