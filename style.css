@@ -134,15 +134,84 @@ button {
     color: var(--text-dark-grey);
 }
 
-.image-smartphone__slider {
-    display: flex;
-    justify-content: center;
+.image-smartphone {
+    position: relative;
     height: 24rem;
+    width: 100%;
     background-color: var(--background-white);
     border: 1px solid var(--border-bottom-grey);
     border-radius: var(--border-radius);
-
+    overflow: hidden;
 }
+
+.navigation-smatphone__manual {
+    position: absolute;
+    display: flex;
+    bottom: 9px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.manul-btn {
+    height: 15px;
+    width: 15px;
+    margin: 6px;
+    border-radius: 10px;
+    border: 2px solid var(--border-bottom-grey);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.manul-btn:hover {
+    background: var(--border-bottom-grey);
+}
+
+input[name="smartphone__slider"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.photo-smartphone__slides {
+    display: flex;
+    height: 86%;
+    width: 500%;
+}
+
+.smartphone-slide {
+    width: 20%;
+    padding: 10px;
+    transition: .6s;
+}
+
+.smartphone-slide img {
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+}
+
+#radio1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .s1 {
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+#radio5:checked ~ .s1 {
+    margin-left: -80%;
+}
+
+/* Manual navigation slide */
+
+/* End Manual Navigation Slide */
 
 .articles-smartphone__last-watched {
     height: 24rem;
@@ -150,20 +219,6 @@ button {
     border: 1px solid var(--border-bottom-grey);
     border-radius: var(--border-radius);
 }
-
-.smartphone-slide {
-    padding: 10px;
-}
-
-.smartphone-slide img {
-    height: 19rem;
-    width: auto;
-    border-radius: 10px;
-}
-
-/* Manual navigation slide */
-
-/* End Manual Navigation Slide */
 
 /* End Contener Smartphone */
 
