@@ -213,7 +213,7 @@ input[name="smartphone__slider"] {
 
 /* End Manual Navigation Slide */
 
-.articles-smartphone__last-watched {
+.articles-smartphone__new-promotions {
     height: 24rem;
     background-color: var(--background-white);
     border: 1px solid var(--border-bottom-grey);
@@ -221,6 +221,8 @@ input[name="smartphone__slider"] {
 }
 
 /* End Contener Smartphone */
+
+/* Last Watched */
 
 @media only screen and (min-width: 960px) {
 
@@ -230,7 +232,8 @@ input[name="smartphone__slider"] {
     display: contents;
 }  
 
-.navbar-smartphone {
+.navbar-smartphone,
+.contener-smartphone {
     display: none;
 }
 
@@ -363,4 +366,40 @@ input[name="smartphone__slider"] {
 }
 
 /* End Search Menu */
+
+/* Nav Menu Computer */
+
+nav {
+    height: 35px;
+    width: 100%;
+    line-height: 35px;
+    background: var(--primary-color-yellow);
+    z-index: 2;
+}
+
+nav .wrapper__computer {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 18px;
+}
+
+.wrapper__computer li a {
+    padding: 13px;
+    color: var(--text-black);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.wrapper__computer li a:hover {
+    padding-top: 5px;
+    background: var(--background-white);
+}
+
+.wrapper__computer .nav-link__computer {
+    display: inline-flex;
+}
+
+/* End Nav Menu Computer */
 }
