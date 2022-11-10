@@ -367,5 +367,63 @@ input[name="smartphone__slider"] {
 
 /* End Search Menu */
 
+/* Nav Bar Computer */ 
+
+.wrapper__computer {
+    width: 100%;
+    background: var(--primary-color-yellow);
+}
+
+.nav-link__computer {
+    height: 40px;
+    max-width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-link__computer ul {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.nav-link__computer ul li {
+    display: inline-block;
+    margin: 0 8px;
+    padding: 0 5px;
+}
+
+.nav-link__computer ul li a {
+    display: block;
+    color: var(--text-black);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.nav-link__computer ul li .menu__agd-duze {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 25px 15px;
+    left: 0;
+    font-weight: normal;
+    text-transform: capitalize;
+    line-height: 2.4row;
+    background: var(--background-white);
+    visibility: hidden;
+}
+
+.nav-link__computer ul li:hover {
+    background: var(--background-white);
+}
+
+.nav-link__computer ul li:hover .menu__agd-duze {
+    visibility: visible;
+}
+
+/* End Nav Bar Computer */ 
 
 }
