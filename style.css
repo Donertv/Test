@@ -376,17 +376,19 @@ input[name="smartphone__slider"] {
 
 .nav-link__computer {
     height: 40px;
-    max-width: 100%;
+    max-width: 1200px;
+    margin: auto;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 .nav-link__computer ul {
     position: relative;
+    display: flex;
+    justify-content: center;
     height: 100%;
     width: 100%;
     line-height: 40px;
-    text-align: center;
 }
 
 .nav-link__computer ul li {
@@ -405,13 +407,15 @@ input[name="smartphone__slider"] {
 .nav-link__computer ul li .menu__agd-duze {
     position: absolute;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    align-items: flex-start;
     width: 100%;
     padding: 25px 15px;
     left: 0;
     font-weight: normal;
     text-transform: capitalize;
-    line-height: 2.4row;
+    line-height: 2.4rem;
     background: var(--background-white);
     visibility: hidden;
 }
@@ -422,6 +426,11 @@ input[name="smartphone__slider"] {
 
 .nav-link__computer ul li:hover .menu__agd-duze {
     visibility: visible;
+}
+
+.nav-link__computer ul li .menu__agd-duze .submenu__agd-duze {
+    display: flex;
+    flex-direction: column;
 }
 
 /* End Nav Bar Computer */ 
