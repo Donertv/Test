@@ -1,7 +1,8 @@
 :root {
     font-size: 10px;
     --border-radius: 4px;
-    --background-ight-grey: rgb(241, 241, 241);
+    --background-black: rgb(0, 0, 0);
+    --background-light-grey: rgb(241, 241, 241);
     --background-white: rgb(255, 255, 255);
     --border-bottom-grey: rgb(200, 200, 200);
     --border-bottom-yellow: rgb(255, 234, 0);
@@ -97,7 +98,7 @@ button {
 .contener-smartphone {
     max-width: 959px;
     padding: 2.5rem 1.5rem;
-    background-color: var(--background-ight-grey);
+    background-color: var(--background-light-grey);
 }
 
 .content-smartphone {
@@ -411,13 +412,21 @@ input[name="smartphone__slider"] {
     justify-content: space-around;
     align-items: flex-start;
     width: 100%;
+    max-width: 1200px;
     padding: 25px 15px;
     left: 0;
     font-weight: normal;
     text-transform: capitalize;
     line-height: 2.4rem;
-    background: var(--background-white);
+    background-color: var(--background-white);
     visibility: hidden;
+}
+
+.nav-link__computer ul li .menu__agd-duze  span .navbar-icon {
+    height: 100%;
+    max-height: 30px;
+    width: auto;
+    padding-right: 1rem;
 }
 
 .nav-link__computer ul li:hover {
@@ -431,8 +440,32 @@ input[name="smartphone__slider"] {
 .nav-link__computer ul li .menu__agd-duze .submenu__agd-duze {
     display: flex;
     flex-direction: column;
+    width: 200px;
 }
 
 /* End Nav Bar Computer */ 
 
+/* Main Top Slider */
+
+.main-top-slider {
+    display: flex;
+    justify-content: center;
+    max-height: 670px;
+    width: 100%;
+    background-color: var(--background-black);
+
+}
+
+.main-top-slider .container-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 670px;
+    width: 1200px;
+    font-size: 5rem;
+    background-color: grey;
+    border: 2px solid red;
+}
+
+/* End Main Top Slider */
 }
