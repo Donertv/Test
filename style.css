@@ -6,7 +6,7 @@
     --background-white: rgb(255, 255, 255);
     --border-bottom-grey: rgb(200, 200, 200);
     --border-bottom-yellow: rgb(255, 234, 0);
-    --primary-color-blue: rgb(0, 0, 255);
+    --primary-color-blue: rgb(30, 30, 158);
     --primary-color-red: rgb(225, 0, 0);
     --primary-color-yellow: rgb(255, 234, 0);
     --secondary-color: rgb(198, 198, 198);
@@ -471,13 +471,53 @@ input[name="smartphone__slider"] {
 
 /* Banners Main Top */
 
-.banners-main_top {
+.banners-main_section {
     display: flex;
     justify-content: center;
-    height: 50px;
     max-width: 1200px;
+    margin: 20px auto;
+}
+
+.banners-main_top-content {
+    height: 160px;
     width: 100%;
-    border: 1px solid red;
+}
+
+.banners-bringing {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 590px;
+}
+
+.banners-bringing_content {
+    position: relative;
+    height: 100%;
+    padding: 25px;
+    background: var(--primary-color-blue);
+}
+
+.banners-bringing_images {
+    height: 160px;
+    width: 185px;
+}
+
+.banners-bringing_tittle {
+    font-size: 2.2rem;
+    color: var(--text-white);
+}
+
+.banners-bringing_text {
+    padding-top: 8px;
+    font-size: 1.4rem;
+    color: var(--text-white);
+}
+
+.banners-bringing_details {
+    position: absolute;
+    bottom: 14px;
+    font-size: 1.4rem;
+    color: var(--text-white);
 }
 
 /* End Banners Main Top */
