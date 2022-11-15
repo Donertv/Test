@@ -468,4 +468,17 @@ input[name="smartphone__slider"] {
 }
 
 /* End Main Top Slider */
+
+/* Banners Main Top */
+
+.banners-main_top {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    max-width: 1200px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+/* End Banners Main Top */
 }
