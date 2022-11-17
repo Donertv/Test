@@ -20,7 +20,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
 }
 
 ul,
@@ -453,7 +452,6 @@ input[name="smartphone__slider"] {
     max-height: 670px;
     width: 100%;
     background-color: var(--background-black);
-
 }
 
 .main-top-slider .container-slider {
@@ -476,9 +474,13 @@ input[name="smartphone__slider"] {
     justify-content: center;
     max-width: 1200px;
     margin: 20px auto;
+    background: white;
+    z-index: 10;
 }
 
 .banners-main_top-content {
+    display: flex;
+    justify-content: space-between;
     height: 160px;
     width: 100%;
 }
@@ -490,11 +492,25 @@ input[name="smartphone__slider"] {
     width: 590px;
 }
 
+.banners-transportation,
+.banners-pick_up {
+    height: 100%;
+    width: 285px;
+    z-index: 2;
+}
+
 .banners-bringing_content {
     position: relative;
     height: 100%;
-    padding: 25px;
+    padding: 15px 20px 35px 20px;
     background: var(--primary-color-blue);
+}
+
+.banners-bringing_contentv2 {
+    position: relative;
+    height: 100%;
+    padding: 15px 20px 35px 20px;
+    background: var(--primary-color-yellow);
 }
 
 .banners-bringing_images {
@@ -507,10 +523,21 @@ input[name="smartphone__slider"] {
     color: var(--text-white);
 }
 
+.banners-bringing_tittlev2 {
+    font-size: 2.2rem;
+    color: var(--text-black);
+}
+
 .banners-bringing_text {
     padding-top: 8px;
     font-size: 1.4rem;
     color: var(--text-white);
+}
+
+.banners-bringing_textv2 {
+    padding-top: 8px;
+    font-size: 1.4rem;
+    color: var(--text-black);
 }
 
 .banners-bringing_details {
@@ -519,6 +546,28 @@ input[name="smartphone__slider"] {
     font-size: 1.4rem;
     color: var(--text-white);
 }
+
+.banners-bringing_detailsv2 {
+    position: absolute;
+    bottom: 14px;
+    font-size: 1.3rem;
+    color: var(--text-blue);
+}
+
+.banners-bringing_images-car {
+    position: absolute;
+    left: 145px;
+    bottom: 5px;
+    z-index: 2;
+}
+
+.banners-bringing_images-1h {
+    position: absolute;
+    left: 195px;
+    bottom: -15px;
+    z-index: 2;
+}
+
 
 /* End Banners Main Top */
 }
