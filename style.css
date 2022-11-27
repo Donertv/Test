@@ -467,6 +467,12 @@ input[name="smartphone__slider"] {
 
 /* End Main Top Slider */
 
+.day-deals-container,
+.popilar-section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* Banners Main Top */
 
 .banners-main_section {
@@ -586,18 +592,45 @@ input[name="smartphone__slider"] {
     display: block;
 }
 
-.day-deals-container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .day-deals-boxes {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
+.day-deals-photo {
+    width: 285px;
+}
+
+.day-deals-item-content {
+    height: 158px;
+    width: 285px;
+    padding: 20px;
+    background: var(--background-light-grey);
+}
+
+.day-deals-heading {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.day-deals-heading a,
+.day-deals-box a {
+    text-decoration: none;
+    color: var(--text-black);
+}
+
+.day-deals-title {
+    padding-top: 8px;
+    font-size: 1.5rem;
+}
+
 /* End Day Deals */
+
+/* Popular Section */
+
+
+/* End Popular Section */
 
 /* End Banners Main Top */
 
