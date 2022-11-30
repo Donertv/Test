@@ -468,7 +468,8 @@ input[name="smartphone__slider"] {
 /* End Main Top Slider */
 
 .day-deals-container,
-.popilar-section-container {
+.popilar-section-container,
+.popular-section-container {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -629,6 +630,22 @@ input[name="smartphone__slider"] {
 
 /* Popular Section */
 
+.popular-product_list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.popular-product_content {
+    display: block;
+    height: 322px;
+    width: 210px;
+}
+
+.product-photo {
+    height: 170px;
+    width: 190px;
+}
 
 /* End Popular Section */
 
