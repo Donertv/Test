@@ -647,6 +647,10 @@ input[name="smartphone__slider"] {
     width: 190px;
 }
 
+.product-photo .produck-photo_images {
+    width: 100%;
+}
+
 /* End Popular Section */
 
 /* End Banners Main Top */
