@@ -633,7 +633,6 @@ input[name="smartphone__slider"] {
 .popular-product_list {
     display: flex;
     width: 100%;
-    padding-bottom: 10px;
 }
 
 .popular-product_content {
@@ -641,10 +640,10 @@ input[name="smartphone__slider"] {
     height: 322px;
     width: 210px;
     padding: 10px;
+    border: 1px solid transparent;
 }
 
 .popular-product_content:hover {
-    margin: -1px;
     border: 1px solid var(--background-light-grey);
 }
 
