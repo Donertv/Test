@@ -469,7 +469,8 @@ input[name="smartphone__slider"] {
 
 .day-deals-container,
 .popilar-section-container,
-.popular-section-container {
+.popular-section-container,
+.opportunity-zone-container {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -600,6 +601,7 @@ input[name="smartphone__slider"] {
 }
 
 .day-deals-photo {
+    display: flex;
     width: 285px;
 }
 
@@ -705,5 +707,55 @@ input[name="smartphone__slider"] {
     padding: 10px;
 }
 
+.opportunity-zone-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opportunity-zone-content-main {
+    height: 609px;
+    width: 590px;
+    background-color: red;
+}
+
+.opportunity-zone-content-small {
+    display: grid;
+    grid-template-columns: 285px 285px;
+    grid-template-rows: 294px 294px; 
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.opportunity-zone-box {
+    height: 290px;
+    width: 285px;
+}
+
+.opportunity-zone-photo {
+    display: flex;
+    width: 285px;
+    height: 195px;
+}
+
+.opportunity-zone-item-content {
+    height: 100px;
+    width: 285px;
+    padding: 20px;
+    background: var(--background-light-grey);
+}
+
+.opportunity-zone-heading {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.opportunity-zone-heading a {
+    text-decoration: none;
+    color: var(--text-black);
+}
+
+.opportunity-zone-title {
+    font-size: 1.4rem;
+}
 
 }
