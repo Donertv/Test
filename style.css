@@ -31,7 +31,27 @@ button {
 
 .top {
     display: none;
-}    
+} 
+
+/* Section Header */
+
+.section-header {
+    position: relative;
+    padding: 40px 5px 35px;
+    font-size: 2.2rem;
+}
+
+.section-header:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 80px;
+    border-bottom: 1px solid var(--border-bottom-grey);
+    display: block;
+}
+
+/* End Section Header */
 
 /* NavBar Smartfon */
 
@@ -577,22 +597,6 @@ input[name="smartphone__slider"] {
 }
 
 /* Day Deals */
-
-.section-header {
-    position: relative;
-    padding: 40px 5px 35px;
-    font-size: 2.2rem;
-}
-
-.section-header:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 80px;
-    border-bottom: 1px solid var(--border-bottom-grey);
-    display: block;
-}
 
 .day-deals-boxes {
     display: flex;
