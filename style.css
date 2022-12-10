@@ -490,7 +490,8 @@ input[name="smartphone__slider"] {
 .day-deals-container,
 .popilar-section-container,
 .popular-section-container,
-.opportunity-zone-container {
+.opportunity-zone-container,
+.article-section-container {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -701,15 +702,7 @@ input[name="smartphone__slider"] {
 
 /* End Popular Section */
 
-/* End Banners Main Top */
-
-.footer-main {
-    display: flex;
-    justify-content: center;
-    height: 200px;
-    width: 1200px;
-    padding: 10px;
-}
+/* Opportunity Zone Section */
 
 .opportunity-zone-boxes {
     display: flex;
@@ -760,6 +753,73 @@ input[name="smartphone__slider"] {
 
 .opportunity-zone-title {
     font-size: 1.4rem;
+}
+
+/* End Opportunity Zone Section */
+
+/* Article Section */
+
+.article-section-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-section-content-main {
+    height: 700px;
+    width: 590px;
+    background-color: red;
+}
+
+.article-section-content-small {
+    display: grid;
+    grid-template-columns: 285px 285px;
+    grid-template-rows: 340px 340px; 
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.article-section-box {
+    height: 290px;
+    width: 285px;
+}
+
+.article-section-photo {
+    display: flex;
+    width: 285px;
+    height: 180px;
+}
+
+.article-section-item-content {
+    height: 160px;
+    width: 285px;
+    padding: 20px;
+    background: var(--background-light-grey);
+}
+
+.article-section-heading {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.article-section-heading a {
+    text-decoration: none;
+    color: var(--text-black);
+}
+
+.article-section-title {
+    font-size: 1.4rem;
+}
+
+/* End Article Section */
+
+/* End Banners Main Top */
+
+.footer-main {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 1200px;
+    padding: 10px;
 }
 
 }
