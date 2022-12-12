@@ -449,6 +449,7 @@ input[name="smartphone__slider"] {
 }
 
 .nav-link__computer ul li:hover {
+    height: 35px;
     background: var(--background-white);
 }
 
