@@ -448,8 +448,7 @@ input[name="smartphone__slider"] {
     padding-right: 1rem;
 }
 
-.nav-link__computer ul li:hover {
-    height: 35px;
+.nav-link__computer ul li a:hover {
     background: var(--background-white);
 }
 
