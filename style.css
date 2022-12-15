@@ -23,6 +23,7 @@
 }
 
 ul,
+li,
 a,
 button {
     text-decoration: none;
@@ -51,6 +52,12 @@ button {
     display: block;
 }
 
+.section-header_article-link {
+    position: absolute;
+    left: 0;
+    top: 80px;
+}
+
 /* End Section Header */
 
 /* NavBar Smartfon */
@@ -71,7 +78,6 @@ button {
     width: 100%;
     border-bottom: 5px solid var(--border-bottom-yellow);
 }
-
 
 .navbar-smartphone__contener {
     width: 100%;
