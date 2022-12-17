@@ -497,7 +497,8 @@ input[name="smartphone__slider"] {
 .popilar-section-container,
 .popular-section-container,
 .opportunity-zone-container,
-.article-section-container {
+.article-section-container,
+.categories-in-our-store {
     max-width: 1200px;
     margin: 0 auto;
 }
