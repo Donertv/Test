@@ -498,7 +498,8 @@ input[name="smartphone__slider"] {
 .popular-section-container,
 .opportunity-zone-container,
 .article-section-container,
-.categories-in-our-store {
+.categories-in-our-store,
+.categories-in-our-store-container {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -766,6 +767,17 @@ input[name="smartphone__slider"] {
 
 /* Article Section */
 
+.article-section {
+    position: absolute;
+}
+
+.section-header_article-link {
+    position: relative;
+    top: -54px;
+    left: 230px;
+    font-size: 1.5rem;
+}
+
 .article-section-boxes {
     display: flex;
     justify-content: space-between;
@@ -851,6 +863,35 @@ input[name="smartphone__slider"] {
 }
 
 /* End Article Section */
+
+/* Categories In Our Store */
+
+.categories-in-our-store-list {
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden;
+    width: calc(100% / 5);
+    padding: 15px;
+    margin-bottom: 55px;
+}
+
+.categories-in-our-store-image {
+    height: 123px;
+    position: relative;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.categories-in-our-store-image img {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+/* End Categories In Our Store */
 
 /* End Banners Main Top */
 
