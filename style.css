@@ -891,6 +891,10 @@ input[name="smartphone__slider"] {
     transform: translateX(-50%);
 }
 
+h3 a {
+    color: var(--text-black);
+}
+
 /* End Categories In Our Store */
 
 /* End Banners Main Top */
