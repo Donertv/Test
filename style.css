@@ -860,6 +860,7 @@ input[name="smartphone__slider"] {
 
 .autor-name {
     display: flex;
+    text-decoration: underline;
 }
 
 /* End Article Section */
@@ -875,6 +876,7 @@ input[name="smartphone__slider"] {
     width: calc(100% / 5);
     padding: 15px;
     margin-bottom: 55px;
+    border-radius: 5px;
 }
 
 .categories-in-our-store-image {
@@ -893,6 +895,13 @@ input[name="smartphone__slider"] {
 
 h3 a {
     color: var(--text-black);
+}
+
+.categories-in-our-store-image:hover {
+    border: 1px solid var(--background-light-grey);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(117, 117, 117, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(117, 117, 117, 1);
+    box-shadow: 0px 0px 5px 0px rgba(117, 117, 117, 1);
 }
 
 /* End Categories In Our Store */
