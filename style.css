@@ -771,10 +771,17 @@ input[name="smartphone__slider"] {
     position: absolute;
 }
 
+.section-header_link {
+    position: relative;
+    top: -54px;
+    left: 140px;
+    font-size: 1.5rem;
+}
+
 .section-header_article-link {
     position: relative;
     top: -54px;
-    left: 230px;
+    left: 220px;
     font-size: 1.5rem;
 }
 
