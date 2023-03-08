@@ -611,6 +611,7 @@ input[name="smartphone__slider"] {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    width-max: 1200px;
 }
 
 .day-deals-photo {
