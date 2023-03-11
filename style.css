@@ -499,7 +499,8 @@ input[name="smartphone__slider"] {
 .opportunity-zone-container,
 .article-section-container,
 .categories-in-our-store,
-.categories-in-our-store-container {
+.categories-in-our-store-container,
+.categories-brands-container {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -611,7 +612,7 @@ input[name="smartphone__slider"] {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    width-max: 1200px;
+    max-width: 1200px;
 }
 
 .day-deals-photo {
