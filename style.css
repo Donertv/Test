@@ -876,6 +876,10 @@ input[name="smartphone__slider"] {
 
 /* Categories In Our Store */
 
+.categories-in-our-store-content {
+    height: 437px;
+}
+
 .categories-in-our-store-list {
     box-sizing: border-box;
     float: left;
