@@ -920,6 +920,20 @@ h3 a {
 
 /* End Categories In Our Store */
 
+/* Categories Brand */
+
+.categories-brands-section-container {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.categories-brands-logo {
+    padding-left: 10px;
+}
+
+/* End Categories Brand */
+
 /* End Banners Main Top */
 
 .footer-main {
