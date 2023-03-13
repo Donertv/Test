@@ -521,6 +521,7 @@ input[name="smartphone__slider"] {
     justify-content: space-between;
     height: 160px;
     width: 100%;
+    max-width: 1200px;
 }
 
 .banners-bringing {
